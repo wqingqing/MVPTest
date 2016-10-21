@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:navigationIcon="@mipmap/back"
+        app:navigationIcon="@mipmap/back"
+        android:minHeight="42dp"
+        android:background="@drawable/header_bj"
+        android:titleTextColor="@color/colorAccent"
+        app:background="@drawable/header_bj"
+        app:title="标题"
+        app:titleTextColor="@color/green" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
